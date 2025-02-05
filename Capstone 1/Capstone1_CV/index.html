@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José María Miguel Martín - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .toggle-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            border: none;
+            background: #444;
+            color: white;
+            cursor: pointer;
+        }
+        .toggle-button:hover {
+            background: #666;
+        }
+        .download-button {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .collapsible {
+            cursor: pointer;
+            padding: 10px;
+            background: #ddd;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 16px;
+        }
+        .content {
+            display: none;
+            padding: 10px;
+        }
+        .content.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>José María Miguel Martín</h1>
+        <p><a href="https://www.linkedin.com/in/jmigmar/">LinkedIn</a> | <a href="https://github.com/60r3">GitHub</a></p>
+        
+        <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <button class="collapsible">Show About Me</button>
+            <div class="content">
+                <p>I am a digital marketing professional specialized in Google Ads, where I have developed advanced strategies that have helped hundreds of clients achieve their commercial goals successfully. Currently, in my role as a trainer, I guide future agents in mastering the Google ecosystem, ensuring they apply effective strategies to maximize their impact.</p>
+
+                <p>Alongside my expertise in digital marketing, I am expanding my skill set into web development and data science, with a strong focus on artificial intelligence. I am currently completing the initial stage of my full-stack developer training, gaining solid foundations in programming, backend & frontend integration, and database management. At the same time, I am diving into data science and AI applications, working with Data Base tools, Python, and machine learning techniques to optimize decision-making, automation, and predictive analytics.</p>
+
+                <p>My passion for continuous learning and the integration of emerging technologies—such as AI, automation, and blockchain—keeps me at the forefront of industry trends. By combining data-driven insights with technical implementation, I aim to create more intelligent, scalable, and automated solutions that drive efficiency and innovation in both business and technology fields.</p> 
+
+                <p>With a diverse background spanning both public and private sectors, I have developed a unique combination of skills in team management, process optimization, and creative problem-solving. My experience allows me to bridge the gap between marketing, technology, and AI-driven solutions, enabling businesses to leverage cutting-edge tools for growth and optimization.</p>
+                
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Experience</h2>
+            <p><strong>Google Ads Product & Sales Trainer</strong> - Teleperformance (Aug 2024 - Present)</p>
+            <p>Training and developing Google Ads sales teams, optimizing performance, and ensuring compliance with KPIs.</p>
+            <button class="collapsible">Show Previous Experience</button>
+            <div class="content">
+                <p><strong>Digital Marketing Analyst & Google Ads Performance Enhancer</strong> - Teleperformance (Nov 2021 - Aug 2024)</p>
+                <p>Created and optimized Google Ads campaigns, analyzed key performance indicators, and developed training sessions.</p>
+                <p><strong>Receptionist</strong> - Padel7 Sant Marti (Oct 2020 - Dec 2021)</p>
+                <p>Customer service at reception, email, live chat, and phone support. Managed cash register operations.</p>
+                <p><strong>Administrative Assistant</strong> - Talleres Arisa Ouresne S.L.U. (Apr 2018 - May 2020)</p>
+                <p>Managed invoices, payments, and supplier relations. Supervised HR, GDPR, and risk prevention policies.</p>
+                <p><strong>Store Manager</strong> - Xogon Ourense (Jul 2017 - Jan 2018)</p>
+                <p>Handled sales, stock management, and customer service.</p>
+                <p><strong>Soldier</strong> - Spanish Army (Oct 2007 - Dec 2014)</p>
+                <p>Administrative tasks related to logistics and payroll, as well as military responsibilities.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Skills</h2>
+            <button class="collapsible">Communication & Soft Skills</button>
+            <div class="content">
+                <p>- Communication & Verbal Skills</p>
+                <p>- Teamwork & Collaboration</p>
+                <p>- Training & Coaching</p>
+            </div>
+
+            <button class="collapsible">Hardskills</button>
+            <div class="content">
+                <p>- Data Analysis & Optimization</p>
+                <p>- Strategy & Project Planning</p>
+            </div>
+
+            <button class="collapsible">Marketing</button>
+            <div class="content">
+                <button class="collapsible">Skills</button>
+                <div class="content">
+                    <p>- SEM, PPC, Paid Media</p>
+                    <p>- Google Ads Optimization</p>
+                </div>
+                <button class="collapsible">Tools</button>
+                <div class="content">
+                    <p>- Google Ads</p>
+                    <p>- Google Analytics</p>
+                    <p>- Google Tag Manager</p>
+                </div>
+            </div>
+
+            <button class="collapsible">Programming</button>
+            <div class="content">
+                <button class="collapsible">Programming Skills</button>
+                <div class="content">
+                    <p>- Full Stack Development</p>
+                    <p>- Object-Oriented Programming (OOP)</p>
+                </div>
+                <button class="collapsible">Languages</button>
+                <div class="content">
+                    <p>- PHP</p>
+                    <p>- SQL</p>
+                    <p>- JavaScript</p>
+                    <p>- Python</p>
+                </div>
+                <button class="collapsible">Tools & Development Environments</button>
+                <div class="content">
+                    <p>- Git & GitHub</p>
+                    <p>- VS Code</p>
+                </div>
+            </div>
+
+            <button class="collapsible">Data Science</button>
+            <div class="content">
+                <button class="collapsible">Skills</button>
+                <div class="content">
+                    <p>- Data Manipulation & Querying (SQL, MariaDB)</p>
+                    <p>- Basic Data Cleaning & Processing</p>
+                </div>
+                <button class="collapsible">Languages</button>
+                <div class="content">
+                    <p>- Python</p>
+                    <p>- SQL</p>
+                    <p>- MongoDB</p>
+                </div>
+                <button class="collapsible">Tools</button>
+                <div class="content">
+                    <p>- Jupyter Notebook</p>
+                    <p>- MySQL Workbench</p>
+                    <p>- MongoDB Compass</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="download-button">
+            <button class="toggle-button" onclick="window.print()">Download CV</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+        document.querySelectorAll(".collapsible").forEach(button => {
+            button.addEventListener("click", function() {
+                this.nextElementSibling.classList.toggle("show");
+            });
+        });
+    </script>
+</body>
+</html>
